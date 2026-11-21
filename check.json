@@ -1,0 +1,31 @@
+{
+  "command": [
+    "{python}",
+    "app.py"
+  ],
+  "expected": {
+    "schedule": [
+      [
+        "Ari",
+        "Bo",
+        "Cleo",
+        "Dee",
+        "Eli"
+      ],
+      [
+        "Dee",
+        "Eli",
+        "Ari",
+        "Bo",
+        "Cleo"
+      ],
+      [
+        "Bo",
+        "Cleo",
+        "Dee",
+        "Eli",
+        "Ari"
+      ]
+    ]
+  }
+}
